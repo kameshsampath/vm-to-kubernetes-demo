@@ -19,7 +19,7 @@ A demo to show how to communicate with Kubernetes Services and Pods using their 
 
 ## Demo Architecture
 
-![Demo Architecture](./images/vm-k8s-blogs.png "Demo Architecture")
+![Demo Architecture](./images/vm-k8s-blog.png "Demo Architecture")
 
 ## Ensure Environment
 
