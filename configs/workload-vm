@@ -22,6 +22,7 @@ runcmd:
   - 'curl -L https://raw.githubusercontent.com/ahmetb/kubectx/master/kubens -o /usr/local/bin/kubens'
   - chmod +x /usr/local/bin/kubectl /usr/local/bin/kubectx /usr/local/bin/kubens
   - chown -R ubuntu:ubuntu /home/ubuntu/.kubectl_aliases
+  - mkdir -p /home/ubuntu/.kube && chown -R ubuntu:ubuntu /home/ubuntu/.kube
 users:
   - default
   - name: ubuntu

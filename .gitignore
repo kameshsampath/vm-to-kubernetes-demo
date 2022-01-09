@@ -41,3 +41,4 @@ work/**
 !work/.gitkeep
 .direnv
 !/bin
+.envrc.local
